@@ -1,0 +1,12 @@
+@startuml clases_base
+class Cliente {
+  - nombre: String
+  - direccion: String
+  - telefono: String
+  - pinTarjeta: String
+  - edad:Double
+  # idInterno: int
+  --
+  + registrarDatos(): void
+  + solicitarReserva(): void
+}
